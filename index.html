@@ -1,0 +1,70 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dani tech</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+    <div class="logo">
+        <div class="im">
+        <img src="2.jpg" alt="" class="im"></div>
+        <h1>Dani Tech</h1>
+        <h3>YeTechnology Timhert</h3>
+
+    </div>
+    <div class="navbar" id="mynavbar">
+        <a href="#">Home</a>
+        <a href="#"> Design </a>
+        <div class="dropdown">
+            <button class="dropdownbtn">Tutotials</button>
+            <div class="dropdown-list">
+                <a href="#">HTML</a>
+                <a href="#">JAVA</a>
+                <a href="#">CSS</a>
+                <a href="#">C++</a>
+                <a href="#">DATABASE</a>
+                <a href="#">SQL</a>
+                
+            </div>
+            
+        </div>
+        <a href="#">contact</a>
+        <a href="#">About</a>
+       
+        <a href="#" class="ri">Login</a>
+        <a href="#" class="ri">signup</a>
+        <a href="javascript:void(0);" 
+        style="font-size: 15px ;" class="icon" 
+        onclick="myfunction()"> &#9776; </a>
+    </div>
+    <div class="cont">
+        
+        <h1>Learn <br> <SPan>Technology</SPan> </h1>
+        <p class="para"> Lorem, ipsum dolor sit amet consectetur 
+            adipisicing elit. Cum, delectus  sapiente! 
+            Totam ipsum, illo <br> iste eaque adipisci cupiditate
+             tempore quas nobis ipsa eius sequi 
+            consequaturCulpa,<br> esse dolore. Cumque!</p>
+           
+            <button class="learn">start now</button>
+    </div>
+    <script>
+        function myfunction() {
+            var x = document.getElementById("mynavbar");
+            if(x.className==="navbar")
+            {
+                x.className+="responsive";
+            }
+            else
+            {
+            x.className= "navbar";}
+
+
+        }
+    </script>
+   
+ </body>
+ </html>
